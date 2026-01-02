@@ -69,11 +69,11 @@ for blk = 1:num_blocks
     %% ----------------------------
     % 6. Polar Decoding
     %% ----------------------------
-##    for i= 1:N-1
-##      if ismember(i,info_idx)
-##        u_hat(i) = xor(u_hat(i),u_hat(8));
-##      end
-##    end
+%%    for i= 1:N-1
+%%      if ismember(i,info_idx)
+%%        u_hat(i) = xor(u_hat(i),u_hat(8));
+%%      end
+%%    end
     u_hat(12) = xor(u_hat(16),u_hat(12));
     u_hat(14) = xor(u_hat(16),u_hat(14));
     u_hat(15) = xor(u_hat(16),u_hat(15));
