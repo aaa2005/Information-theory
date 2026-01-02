@@ -1,1 +1,1 @@
-Error-Correcting Codes
+## Error-Correcting Codes
